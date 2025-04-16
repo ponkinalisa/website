@@ -1,0 +1,281 @@
+@font-face {
+    font-family: 'Lorenzo Sans';
+    src: url('../media/fonts/ofont.ru_Lorenzo Sans.ttf'); /* Указываем путь от css!!*/
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lorenzo Sans';
+    color: #fdf0d5;
+    font-size: 20px;
+}
+h3{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+body{
+    background-color: #003049;
+}
+/* шапка */
+header{
+    width: 100%;
+    height: 12em;
+    background-color: #fdf0d5;
+    color: #003049;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    position: relative;
+    height: 10em;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo > img{
+    height: 3em;
+    width: 6em;
+}
+#switch{
+    height: 3em;
+    width: 6em;
+    transform: scale(0.6);
+    transition: transform 0.3s ease;
+}
+#switch:hover{
+    transform: scale(0.7005);
+}
+.links{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.item{
+    display: inline;
+    text-align: center;
+    vertical-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #003049;
+    transition: background-color 0.3s ease;
+}
+.item:hover{
+    background-color: #ffebc3;
+}
+/* слайдер */
+.slider{
+    display: flex;
+    flex-direction: column;
+}
+.arrows{
+    display: flex;
+}
+.arrow{
+    text-align: center;
+    vertical-align: center;
+    width: 2em;
+    height: 2em;
+    border-radius: 2em;
+    border: 1px solid #ddd;
+    color:#ddd;
+    padding: 10px;
+    margin: 10px;
+}
+.arrow:hover{
+    background-color: #669bbc;
+    color: #ffebc3;
+    border: 1px solid #ffebc3;
+}
+.area{
+    padding: 10px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+
+}
+.image{
+    width: 100%;
+    height: 100%;
+}
+.image > img{
+    border-radius: 5px;
+    width: 100%;
+}
+.info{
+    paDDING: 10PX;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: start;
+}
+#more{
+    margin: 15px;
+    width: 7em;
+    height: 2em;
+    border-radius: 10px;
+    align-self: center;
+    background-color: #780000;
+}
+#more:hover{
+    text-align: center;
+    transform: scale(1.05);
+    background-color: #c1121f;
+}
+.reit{
+    padding: 15px;
+    align-self: center;
+    display: grid;
+    width: 275px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+.reit img{
+    width: 50px;
+}
+/* авторизация */
+.autorisation{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color: #669bbc;
+}
+h1{
+    width: 100%;
+    height: 1em;
+    text-align: center;
+    background-color: #780000;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+form{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    background-color: #003049;
+}
+input{
+    color: #003049;
+    width: 70%;
+    align-self: center;
+    height: 2em;
+    margin: 7px;
+}
+input[type='submit']{
+    color: #ffebc3;
+    margin: 15px;
+    width: 7em;
+    height: 2em;
+    border-radius: 10px;
+    align-self: center;
+    background-color: #780000;
+}
+input[type="submit"]:hover{
+    text-align: center;
+    transform: scale(1.05);
+    background-color: #c1121f;
+}
+/* Конкурсы */
+.contests_main{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+.contest{
+    background-color: #669bbc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.contest > img{
+    margin: 8px;
+    width: 90%;
+    align-self: center;
+    border-radius: 10px;
+}
+
+/* поиск */
+.search{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color: #669bbc;
+}
+/* Отзывы */
+.comments_main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    left: -200px;
+    overflow-x: hidden;
+    gap: 20px;
+}
+.comment{
+    margin-bottom: 10px;
+    border: 2px solid #ffebc3;
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.personal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.icon img{
+    width: 100%;
+}
+
+/* Подвал */
+
+footer{
+    width: 100%;
+    height: 12em;
+    background-color: #fdf0d5;
+    color: #003049;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+}
+
+@media(min-width: 760px){
+    header{
+        height: 9em;
+    }
+    .links{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .contests_main{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    footer{
+        height: 9em;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media(min-width: 1000px){
+    .contests_main{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
