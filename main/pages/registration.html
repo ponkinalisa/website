@@ -28,33 +28,30 @@
                 <form>
                     <input type="email" placeholder="Введите почту" required>
                     <div class="for_group">
+                        <h6>Добавить участников: </h6> 
+                        <input type="number" value="1" min="1">
+                        <button>+</button>
+                    </div>
+                    <div class="group">
                         <input type="text" placeholder="Ввдите фамилию.." required>
-                        <button>+</button>
-                        <button>-</button>
-                    </div>
-                    <div class="for_group">
                         <input type="text" placeholder="Ввдите имя.." required>
-                        <button>+</button>
-                        <button>-</button>
-                    </div>
-                    <div class="for_group">
                         <div class="age">
-                            <input type="number" placeholder="" value="0" required>
-                            <input type="date" placeholder="" required>
+                            <div id="group1" class="lab">
+                                <input type="radio" id="date1" value="value1" name="group1"><label for="date1">Указать дату рождения</label>
+                                <input type="date" placeholder="" id="dat"><br>
+                            </div>
+                            <div id="group1" class="lab">
+                                <input type="radio" id="number1" value="value2" name="group1" checked ><label for="number1">Указать возраст числом</label>
+                                <input type="number" placeholder="" value="0" id="num">
+                            </div>
+                            
+
                         </div>
-                        <button>+</button>
-                        <button>-</button>
-                    </div>
-                    <div class="for_group">
-                        <div class="gender">
-                            <label for="gender">Пол:    </label>
+                        <label for="gender" class="gender">Пол:    </label>
                             <select id="gender" required>
                                 <option value="man">Мужской</option>
                                 <option value="woman">Женский</option>
                             </select>
-                        </div>
-                        <button>+</button>
-                        <button>-</button>
                     </div>
                     <input type="file" placeholder="Выберите фото" required>
                     <input type="password" placeholder="Введите пароль" required>

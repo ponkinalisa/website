@@ -1,0 +1,28 @@
+
+table{
+    border: 1px solid #fdf0d5;
+    border-collapse: collapse;
+    border-collapse: collapse;
+}
+th{
+    font-size: 15px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #fdf0d5;
+}
+tr{
+    height: 100px;
+    width: 100px;
+    border: 1px solid #fdf0d5;
+}
+td{
+    text-align: center;
+    vertical-align: center;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #fdf0d5;
+    background-color: rgba(0, 157, 31, 0.473); 
+}
+.full{
+    background-color: rgba(157, 0, 0, 0.473); 
+}
