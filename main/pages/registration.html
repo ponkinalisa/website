@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link type="text/css" href="../css/index.css" rel="stylesheet">
+        <link type="text/css" href="../css/reg.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="..\media\logo\logo_dark.png">
+                <a href="index_light.html"><img src="..\media\img\switch_off.png" id="switch"></a>
+            </div>
+            <div class="links">
+                <a href="registration.html" class="item">Регистрация</a>
+                <a href="#auto" class="item">Авторизация</a>
+                <a href="account.html" class="item">Личный кабинет</a>
+                <a href="#about" class="item">О нас</a>
+                <a href="#contests" class="item">Конкурсы</a>
+                <a href="#search" class="item">Поиск</a>
+                <a href="#footer" class="item">Контакты</a>
+            </div>
+        </header>
+        <main>
+            <h1>Регистрация</h1>
+            <!--Форма основной ргистрации-->
+            <div class="reg" id="reg">
+                <form>
+                    <input type="email" placeholder="Введите почту" required>
+                    <div class="for_group">
+                        <input type="text" placeholder="Ввдите фамилию.." required>
+                        <button>+</button>
+                        <button>-</button>
+                    </div>
+                    <div class="for_group">
+                        <input type="text" placeholder="Ввдите имя.." required>
+                        <button>+</button>
+                        <button>-</button>
+                    </div>
+                    <div class="for_group">
+                        <div class="age">
+                            <input type="number" placeholder="" value="0" required>
+                            <input type="date" placeholder="" required>
+                        </div>
+                        <button>+</button>
+                        <button>-</button>
+                    </div>
+                    <div class="for_group">
+                        <div class="gender">
+                            <label for="gender">Пол:    </label>
+                            <select id="gender" required>
+                                <option value="man">Мужской</option>
+                                <option value="woman">Женский</option>
+                            </select>
+                        </div>
+                        <button>+</button>
+                        <button>-</button>
+                    </div>
+                    <input type="file" placeholder="Выберите фото" required>
+                    <input type="password" placeholder="Введите пароль" required>
+                    <input type="password" placeholder="Повторите пароль" required>
+                    <div class="pd">
+                        <input type="checkbox" id="check" required>
+                        <label for="check">Я согласн с обработкой ПД</label>
+                    </div>
+                    <input type="submit" value="Зарегистрироваться" required>
+                </form>
+                <div class="message">
+                    <div class="error"> Вы не заполнили обязатльныее поля! </div>
+                    <div class="error">Данные некорректны</div>
+                    <div class="ok">Данны корректны. Поздравлям с регистрацией!</div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer id="footer">
+            <a href="tel: 88007894567" class="item">8 (800) 789-45-67</a>
+            <a href="mailto: artmir@artmir.ru" class="item">artmir@artmir.ru</a>
+            <a href="../../index.html" class="item">Главная</a>
+            <a href="index_light.html" class="item">Главная-светлая</a>
+            <a href="registration.html" class="item">Регистрация</a>
+            <a href="#auto" class="item">Авторизация</a>
+            <a href="#contests" class="item">Конкурсы </a>
+            <a href="account.html" class="item">Личный кабинет</a>
+            <a href="404.html" class="item">Страница не найдена</a>
+        </footer>
+    </body>
+</html>

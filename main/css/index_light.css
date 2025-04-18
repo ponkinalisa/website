@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lorenzo Sans';
+    color: #003049;
+    font-size: 20px;
+}
+body{
+    background-color: #fdf0d5;
+}
+header{
+    background-color: #003049;
+    color: #fdf0d5;
+}
+.item{
+    color: #fdf0d5;
+}
+.arrow{
+    border: 1px solid #003f60;
+    color:#003f60 ;
+}
+h1{
+    color: #fdf0d5;
+}
+.item:hover{
+    background-color: #003f60;
+}
+footer{
+    background-color: #003049;
+    color: #fdf0d5;
+}
+.comment{
+    background-color: #669bbc;
+}
+input[type='submit']{
+    color: #fdf0d5;
+}
+button{
+    color: #fdf0d5;
+}

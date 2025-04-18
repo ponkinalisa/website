@@ -1,0 +1,36 @@
+.comment{
+    align-self: center;
+    width: 80%;
+    margin-left: 5%;
+    display:none;
+}
+.comment img{
+    width: 150px;
+}
+@media print {
+	*, *:before, *:after { 
+		color: #000;
+		box-shadow: none;
+		text-shadow: none;
+	}
+    header{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+    .comment{
+        display: block;
+    }
+    .area{
+        display: flex;
+        flex-direction: column;
+    }
+    .reit{
+        align-self: start;
+    }
+    .area img{
+        align-self: center;
+        width: 50%;
+    }
+}

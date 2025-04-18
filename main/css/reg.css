@@ -1,0 +1,78 @@
+.reg{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color: #669bbc;
+    margin-top: -20px;
+}
+form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.for_group{
+    padding: 0px 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 8fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.for_group input{
+    width: 70%;
+}
+input[type='submit']{
+    width: 70%;
+}
+.pd{
+    display: flex;
+}
+button{
+    width: 2em;
+    height: 2em;
+    background-color: rgb(127, 168, 255);
+}
+input{
+    height: 1.5em;
+    color: #003049;
+}
+.gender{
+    display: flex;
+}
+select{
+    width: 80%;
+    color:  #003049;
+}
+.age{
+    display: flex;
+    flex-direction: column;
+}
+input[type="file"]{
+    appearance: none;
+    color: #ffebc3;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+}
+.error{
+    padding: 10px;
+    background-color: rgba(255, 65, 65, 0.555);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+}
+.ok{    
+    padding: 10px;
+    background-color: rgba(50, 255, 61, 0.555);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+}
